@@ -1,0 +1,23 @@
+{
+  "name": "MTDS_LW_3_NodeJS",
+  "version": "1.0.0",
+  "description": "A respositrory with code in NodeJS for Laboratory work 3 for MTDS class.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StrivingToAdoniss/MTDS_LW_3_NodeJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StrivingToAdoniss/MTDS_LW_3_NodeJS/issues"
+  },
+  "homepage": "https://github.com/StrivingToAdoniss/MTDS_LW_3_NodeJS#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
