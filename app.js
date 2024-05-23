@@ -24,9 +24,11 @@ app.get('/script', (req, res) => {
 
     fs.readFile(filePath, 'utf8', (err, data) => {
         if (err) {
+            console.error(`Error reading script file: ${filePath}`, err);
             res.status(500).send('Error reading script file');
         } else {
-            res.send(data);
+            console.log(`Successfully read script file: ${filePath}`);
+            res.status(200).send(data);
         }
     });
 });
